@@ -1,0 +1,265 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+.heading{
+
+    height:200px;  
+    overflow:hidden;
+    background-color:blanchedalmond ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+   
+
+}
+
+
+
+.heading ul{
+    font-size: 20px;
+
+    width: 100%;
+    padding:10 40;
+    background-color: rgba(12, 12, 10, 0.8);
+}
+
+
+.heading ul li a{
+    color: white;
+text-decoration: none;
+}
+.heading ul li a:hover{
+    color:#008800;
+}
+
+.content{
+    display: inline-block;
+    margin:20 20;
+}
+
+.srch{
+    margin-top: 1px;
+    width: 100%;
+    
+    
+}
+.srch >*{
+   margin-right: 30px; 
+   margin-bottom: 10px;
+   margin-left: 5px;
+  }
+.srch input{
+    height: 40px;
+    
+}
+.styleSrch select{
+    font-family:Arial;
+    height:40px;
+    width: 100px;
+}
+
+.styleSrch button{
+    height:40px;
+    width: 50px;
+}
+
+#iu{
+    width: 500px;
+   padding-right: 13px; 
+}
+.house1{
+    display: inline-flex;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+#img1{
+    height: 100px;
+}
+#hh1{
+    color:goldenrod;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 26px;
+}
+#hh1:hover{
+color: green;
+}
+
+.house1 p a{
+   font-size: 19px;
+    text-decoration: none;
+
+}
+.house1 p a:hover{
+color: green;
+
+}
+#h1{
+    margin: 20 20;
+    height: 500px;
+    width: 750px;
+}
+.house1kimuhurura{
+    margin-left: 20px;
+}
+.house1kimuhurura h3{
+    font-size: 30px;
+    color: #008800;
+}
+.details{
+    margin-left: 30px;
+
+    display:block;
+}
+.details h3{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    color:chocolate;
+    margin-bottom: 10px;
+}
+.contact{
+    margin: 20 40;
+
+
+}
+.contact h3{
+    color: coral;
+    font-size: 30px;
+}
+
+.styleLogoImg
+{
+ margin-left: 20px;
+ width: 110px;
+ height:110px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+
+}
+
+
+.styleLogo
+{
+display: inline-flex;
+
+}
+
+.styleLogoList li  {
+     color: white;
+    display:inline-flex;
+     list-style-type:none;
+     padding-right: 50px;
+    
+     text-align: center;
+     padding-left: 7px;
+
+}
+
+.styleLogoHead{
+
+  margin-left: 390px;
+margin-top: 20px;
+font-size: 30px ;
+ font-family:Georgia;    
+ color:darkolivegreen;
+
+}
+
+.styleLogoButton {
+ margin-left: 200px;
+ margin-top: 9px;
+
+}
+
+.styleLogoButton button{
+ height: 35px;
+ font-family:Monospace;
+ font-size: 24px;
+ border-radius: 5px;
+ background-color: darkslategray;
+ color: white;
+ 
+
+}
+
+.styleMain{
+     margin-top: 100px;
+     height: 1700px;
+    display: inline-block;
+    width: 100%;
+     
+
+}
+
+
+/*.styleHouseImage{
+    display: grid;
+    grid-template-columns:400px 400px 100px;
+    grid-gap: 10px;
+
+}*/
+
+.styleHouseImage{
+    margin-top: 20px;
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px ;
+    grid-gap: 1px;
+
+}
+.styleHouseImage img{
+    border-radius: 5px;
+    
+}
+
+.styleBigImage{
+    height: 390px;
+    width: 790px;
+    grid-column:1 /span 3;
+    grid-row: 1/span 1;
+    cursor: pointer;
+}
+.styleSmallImage1{
+    height: 190px;
+    width: 190px;
+    grid-column:1;
+    grid-row:3;
+    cursor: pointer;
+}
+.styleSmallImage2{
+    height: 190px;
+    width: 190px;
+    grid-column:2.5em;
+    grid-row:3;
+    cursor: pointer;
+    
+
+}
+
+.fullscreen{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    cursor: zoom-out;
+   width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+
+
+}
+
+.fullscreen img { 
+    border: 9px solid white;
+
+    margin-left: 100px;
+    width:1000px;
+    height: 700px;
+
+
+}
+
+
